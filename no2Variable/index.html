@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>variable</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <h1>Variable</h1>
+    <div>
+      // var??<br />
+      // 변수를 한 번 더 선언해도 에러가 나오지 않는다.<br />
+      // 이는 유연한 변수 선언으로 간단한 테스트에는 편리 할 수 있겠으나<br />
+      // 코드량이 많아 진다면 어디에서 어떻게 사용 될지도 파악하기<br />
+      // 힘들뿐더러 값이 바뀔 우려가 있다.<br />
+      // 그래서 ES6 이후, 이를 보완하기 위해 추가 된 변수 선언 방식이<br />
+      // let 과 const 이다.<br />
+      var a3 = 1;<br />
+      console.log(a3);<br />
+      var a3 = 2;<br />
+      console.log(a3);<br />
+      <br />
+      // 변수<br />
+      // 변수를 선언한다고 할때 let을 입력<br />
+      let a1 = 220;<br />
+      let b1 = a1 - 5;<br />
+      a1 = 4;<br />
+      console.log(b1, a1);<br />
+      <br />
+      // 상수<br />
+      // 상수를 선언할때 const 를 입력<br />
+      const a2 = 220;<br />
+      let b2 = a2 - 5;<br />
+      a2 = 50; <br />
+      console.log(a2, b2);
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
