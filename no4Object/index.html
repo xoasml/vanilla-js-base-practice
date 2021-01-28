@@ -8,7 +8,53 @@
   </head>
   <body>
     <h1>Object</h1>
-    <div></div>
+    <div>
+      // 배열을 만들때는 [] 안에 데이터를 넣어주면 된다.<br />
+      const privateData = ["TaeHoon", "32", true, "Seoul"];<br />
+      <br />
+      // Object(객체)를 만들 때는 {} 안에 작성한다.<br />
+      const hoonsInfo = {<br />
+      name: "Taehoon",<br />
+      age: 32,<br />
+      gender: "Male",<br />
+      isHandsome: true,<br />
+      <br />
+      // Object에 배열을 넣는게 가능함.<br />
+      favMovies: ["타짜", "점퍼", "해리포터"],<br />
+      <br />
+      //Object를 넣는것도 가능.<br />
+      languageLv: {<br />
+      java: 5,<br />
+      javaScript: 1,<br />
+      HTML: 2,<br />
+      CSS: 2,<br />
+      },<br />
+      <br />
+      favFood: [<br />
+      {<br />
+      name: "짜장면",<br />
+      fatty: true,<br />
+      },<br />
+      {<br />
+      name: "김치",<br />
+      fatty: false,<br />
+      },<br />
+      ],<br />
+      };<br />
+      <br />
+      // Object의 전체 데이터를 다 보여준다<br />
+      console.log(hoonsInfo);<br />
+      <br />
+      // Object에서 원하는 데이터를 보여준다.<br />
+      console.log(hoonsInfo.gender);<br />
+      <br />
+      // Object안에 있는 데이터를 수정도 가능하다.<br />
+      hoonsInfo.gender = "Female";<br />
+      console.log(hoonsInfo.gender);<br />
+      <br />
+      console.log(hoonsInfo.favFood[1].name);<br />
+      console.log(hoonsInfo.languageLv.java);
+    </div>
+    <script src="index.js"></script>
   </body>
-  <script src="index.js"></script>
 </html>
