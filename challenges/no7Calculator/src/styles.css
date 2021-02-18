@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #000000;
+  color: #e4e4e5;
+  font-size: 23px;
+}
+
+.main-frame {
+  width: 660px;
+}
+
+.btn-frame {
+  display: flex;
+}
+
+.math-btn,
+.number-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 64px;
+  margin: 4px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.math-btn:active,
+.number-btn:active {
+  opacity: 0.5;
+}
+
+.result-panel {
+  margin: 4px;
+  width: 76%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 40px;
+}
+
+.zero-btn {
+  width: 51%;
+}
+
+.math-btn {
+  background-color: #fe8e00;
+}
+
+.equal-btn,
+.number-btn {
+  background-color: #363439;
+}
+
+.reset-btn {
+  background-color: #a7aab1;
+}
